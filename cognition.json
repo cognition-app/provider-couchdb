@@ -1,7 +1,0 @@
-{
-  "@type": "https://raw.githubusercontent.com/cognition-app/schema/master/core/Provider.json",
-  "@id": "couchdb",
-  "name": "CouchDB",
-  "version": "1.0.0",
-  "description": "A provider plugin for setting up remote couchdb instances"
-}
