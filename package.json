@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/cognition-app/schema/master/dist/core/plugin",
   "name": "@cognition-app/provider-couchdb",
   "version": "1.0.0",
   "description": "A cognition provider for connecting to a remote couchdb instance",
@@ -19,7 +20,7 @@
     "pouchdb-browser": "^7.0.0"
   },
   "cognition": {
-    "@type": "https://raw.githubusercontent.com/cognition-app/schema/master/dist/core/plugin/provider",
+    "$schema": "https://raw.githubusercontent.com/cognition-app/schema/master/dist/core/plugin/provider",
     "settings": "https://raw.githubusercontent.com/cognition-app/provider-couchdb/master/dist/schema/settings"
   }
 }

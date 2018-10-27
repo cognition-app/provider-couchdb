@@ -3,9 +3,9 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": true,
-    "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "module": "commonjs",
+    "moduleResolution": "node",
+    "module": "umd",
     "target": "es5",
     "lib": [
       "es2015",

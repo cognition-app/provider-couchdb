@@ -1,4 +1,4 @@
-import JSONLD from '@cognition-app/schema/dist/base/json-ld'
+import JSONSchema from '@cognition-app/schema/dist/base/json-schema'
 
 /**
  * CouchDB Provider configuration
@@ -6,7 +6,7 @@ import JSONLD from '@cognition-app/schema/dist/base/json-ld'
 export default
   interface ProviderConfig
   extends
-    JSONLD<
+    JSONSchema<
       'https://raw.githubusercontent.com/cognition-app/provider-couchdb/master/dist/schema/settings'
     >,
     PouchDB.Configuration.LocalDatabaseConfiguration,
